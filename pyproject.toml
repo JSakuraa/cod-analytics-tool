@@ -1,0 +1,11 @@
+[project]
+name = "cod-tool"
+version = "0.1.0"
+description = "Gameplay analysis tool for competitive CoD"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "opencv-python>=4.11.0.86",
+    "pytesseract>=0.3.13",
+]
